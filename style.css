@@ -1,0 +1,32 @@
+.pointer{
+  cursor: pointer;
+}
+
+.pointer:hover{
+transform: scale(1.03);
+}
+
+
+.price-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+    font-size: 18px; 
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: #888; 
+}
+
+.discounted-price {
+  font-weight: bold;
+  color: #37a508; 
+  font-size: 24px; 
+
+}
+
+.discount-percentage {
+  color: #ff0000; 
+  
+}
